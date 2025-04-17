@@ -1,0 +1,7 @@
+import joblib
+
+# Simpan model XGBoost
+joblib.dump(model_xgb, 'project/model_xgb.pkl')
+
+# Simpan scaler jika digunakan
+joblib.dump(scaler, 'project/scaler.pkl')
